@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Airline.create([
+airlines = Airline.create([
   { 
     name: "United Airlines",
     image_url: "https://open-flights.s3.amazonaws.com/United-Airlines.png"

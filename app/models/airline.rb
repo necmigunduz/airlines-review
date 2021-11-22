@@ -3,7 +3,7 @@ class Airline < ApplicationRecord
 
     before_create :slugify
 
-    def slugif
+    def slugify
         self.slug = name.parameterize
     end
 
